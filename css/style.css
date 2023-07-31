@@ -1,11 +1,58 @@
 /*******************************/
 /********* General CSS *********/
 /*******************************/
-#skills{
+#hireme{
+    margin-top: 35px;
+    color: #0F172A;
+    background: #52cdcf;
+    box-shadow: inset 0 0 0 50px #52cdcf;
+    border-radius: 30px;
+}
+#hireme:hover{
+    color: #52cdcf;
+    background: transparent;
+    box-shadow: inset 0 0 0 0 #eeeeee;
+    border-color: #52cdcf;
+}
+#skill1{
     color: #eeeeee !important;
 }
-#recent{
+#skill1:hover{
+    color: #52cdcf !important;
+}
+#skill2{
     color: #eeeeee !important;
+}
+#skill2:hover{
+    color: #52cdcf !important;
+}
+#aboutme{
+    color: #52cdcf !important;
+    font-weight: 400;
+}
+#skill3{
+    color: #eeeeee !important;
+}
+#skill3:hover{
+    color: #52cdcf !important;
+}
+#skill4{
+    color: #eeeeee !important;
+}
+#skill4:hover{
+    color: #52cdcf !important;
+}
+#skills{
+    color: #52cdcf !important;
+    font-weight: 400;
+}
+#workexperience{
+    color: #52cdcf !important;
+    font-weight: 400;
+}
+#recent{
+    color: #52cdcf !important;
+    font-weight: 400;
 }
 
 body {
@@ -21,7 +68,9 @@ h2{
 h3{
     color: #0F172A
 } 
-h4,
+h4 {
+    color: #52cdcf;
+}
 h5, 
 h6 {
     color: #0F172A;
@@ -161,8 +210,8 @@ a:focus {
     margin: 0;
     font-size: 45px;
     line-height: 0px;
-    font-weight: 200;
-    letter-spacing: 1px;
+    font-weight: 300;
+    letter-spacing: -1px;
     transition: .5s;
     
 }
@@ -196,7 +245,11 @@ a:focus {
     }
     
     .navbar .navbar-brand {
-        color: #eeeeee;
+        color: #52cdcf;
+    }
+
+    .navbar .navbar-brand:hover {
+        color: #ffffff;
     }
     
     .navbar.nav-sticky .navbar-brand {
@@ -218,12 +271,12 @@ a:focus {
 
     .navbar-light .navbar-nav .nav-link:hover,
     .navbar-light .navbar-nav .nav-link.active {
-        color: #ffffff;
+        color: #52cdcf;
     }
     
     .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
     .navbar-light.nav-sticky .navbar-nav .nav-link.active {
-        color: #ffffff;
+        color: #52cdcf;
     }
 }
 
@@ -260,7 +313,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(#244289, #0F172A), url(../img/hero-bg.jpg);
+    background: linear-gradient(#0034ae, #0F172A), url(../img/hero-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -309,7 +362,7 @@ a:focus {
     display: inline-block;
     margin: 0;
     height: 50px;
-    color: #eeeeee;
+    color: #52cdcf;
     font-size: 50px;
     font-weight: 200;
 }
@@ -327,16 +380,17 @@ a:focus {
 .hero .hero-btn .btn {
     margin-top: 35px;
     color: #0F172A;
-    background: #eeeeee;
+    background: #0F172A;
     box-shadow: inset 0 0 0 50px #eeeeee;
+    font-weight: 500;
     border-radius: 30px;
 }
 
 .hero .hero-btn .btn:hover {
-    color: #eeeeee;
+    color: #52cdcf;
     background: transparent;
     box-shadow: inset 0 0 0 0 #eeeeee;
-    border-color: #eeeeee;
+    border-color: #52cdcf;
 }
 
 .hero .hero-btn .btn:first-child {
@@ -511,7 +565,7 @@ a:focus {
 }
 
 .about .about-content {
-    padding: 0 60px;
+    padding: 60px;
 }
 
 .about .about-text p {
@@ -523,7 +577,7 @@ a:focus {
 }
 
 .about .skill-name {
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 .about .skill-name p {
@@ -545,7 +599,7 @@ a:focus {
 
 .about .progress .progress-bar {
     width: 0px;
-    background: #eeeeee;
+    background: #52cdcf;
     border-radius: 10px;
     transition: 2s;
 }
@@ -899,7 +953,7 @@ a:focus {
 
 .portfolio .portfolio-text h3 {
     width: calc(100% - 70px);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     margin: 0 0 0 15px;
     white-space: nowrap;
@@ -1503,7 +1557,7 @@ a:focus {
     margin-bottom: 25px;
     font-size: 22px;
     font-weight: 600;
-    color: #eeeeee;
+    color: #52cdcf;
 }
 
 .footer .footer-menu {
